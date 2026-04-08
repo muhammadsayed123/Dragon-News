@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaRegBookmark, FaShareAlt, FaEye, FaStar, FaRegStar } from 'react-icons/fa';
 
+
 const NewsCard = ({ news }) => {
   // Destructuring the provided data structure
   const {
