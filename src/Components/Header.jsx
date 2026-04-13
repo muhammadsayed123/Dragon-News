@@ -10,6 +10,8 @@ const Header = () => {
       <p className="">{format(new Date(), "EEEE , MMMM MM , yyyy")}</p>
     </div>
   );
+
+  
 };
 
 export default Header;
