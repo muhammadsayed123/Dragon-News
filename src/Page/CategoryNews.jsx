@@ -30,7 +30,7 @@ const CategoryNews = () => {
 
     <div className="grid grid-cols-1 gap-5">
         {
-            categoryNews.map(news=> <NewsCard key={news} news={news}></NewsCard>)
+            categoryNews.map((news,index)=> <NewsCard key={index} news={news}></NewsCard>)
         }
     </div>
   </div>;

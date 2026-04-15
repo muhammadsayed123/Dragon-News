@@ -8,10 +8,10 @@ const Navbar = () => {
     const {user,logOut }=use(AuthContext)
 
     const handleLogout=()=>{
-        console.log('User trying to logout')
+        // console.log('User trying to logout')
         logOut()
         .then(()=>{
-            console.log('LogOut Successfully')
+            // console.log('LogOut Successfully')
         })
         .catch(error=>{
             console.log(error)
